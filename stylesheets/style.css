@@ -279,7 +279,30 @@ header {
 /* gift as portfolio section css stylesheet */
 .gift_as_portfolio {
    max-width: 1320px;
-   margin: 0 auto;
+   margin: 60px auto;
+}
+.gift_as_portfolio_text {
+}
+.gift_as_portfolio_text h3 {
+   color: #f00;
+   font-family: Inter;
+   font-size: 24px;
+   font-weight: 500;
+}
+.gift_as_portfolio_text h2 {
+   color: #070211;
+   font-family: Merriweather;
+   font-size: 48px;
+   font-weight: 900;
+   text-transform: capitalize;
+}
+.gift_as_portfolio_text p {
+   color: rgba(7, 2, 17, 0.6);
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 160%;
+   width: 67%;
 }
 .gift_as-portfolio_showcase_first_row {
    display: flex;
@@ -320,3 +343,100 @@ header {
 /* .gift_as-portfolio_showcase_first_single_image:hover::after {
    content: "Product Name";
 } */
+
+/* newsletter section css stylesheet */
+.newsletter {
+   max-width: 1320px;
+   margin: 60px auto;
+   border-radius: 16px;
+   background: rgba(255, 0, 0, 0.05);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 50px;
+   /* justify-content: center; */
+}
+.newsletter h2 {
+   color: #070211;
+   text-align: center;
+   font-family: Merriweather;
+   font-size: 48px;
+   font-weight: 900;
+   text-transform: capitalize;
+   margin: 40px 0 10px 0;
+}
+.newsletter p {
+   color: rgba(7, 2, 17, 0.6);
+   text-align: center;
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 160%;
+   margin-bottom: 50px;
+}
+.input_subscribe {
+   width: 648px;
+   height: 45px;
+}
+.input_subscribe input {
+   width: 70%;
+   height: 100%;
+   border: none;
+   outline: none;
+   background: #fff;
+   padding: 10px;
+   font-size: 15px;
+   margin: 0;
+}
+.input_subscribe button {
+   width: 20%;
+   height: 100%;
+   border: none;
+   outline: none;
+   background: #f00;
+   border-radius: 0 20px 20px 0;
+   padding: 10px;
+   font-size: 15px;
+}
+/* footer section css start here */
+footer {
+   background: #070211;
+}
+.contact_footer {
+   max-width: 1320px;
+   padding: 50px;
+   margin: 0 auto;
+}
+.contact_hotline {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: #fff;
+}
+.contact_hotline_number {
+   display: flex;
+   flex-grow: wrap row;
+   gap: 10px;
+   margin-bottom: 5px;
+}
+.contact_hotline_website {
+   display: flex;
+   flex-grow: wrap row;
+   gap: 10px;
+}
+hr {
+   height: 1px;
+   background: rgba(255, 255, 255, 0.15);
+   margin: 30px 0;
+}
+.contact_social {
+   display: flex;
+   flex-grow: wrap row;
+   justify-content: center;
+   gap: 15px;
+}
+.copy_right {
+   display: flex;
+   justify-content: space-between;
+   color: #fff;
+}
